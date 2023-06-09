@@ -1,4 +1,4 @@
-package com.loop.test.HomeTask;
+package com.loop.test.HomeTask.Task_5_extraTask;
 /*1. login to docuport application
 2. logout from docuport application
 3. Validate successful login

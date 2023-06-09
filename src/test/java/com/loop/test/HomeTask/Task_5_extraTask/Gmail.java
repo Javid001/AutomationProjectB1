@@ -1,4 +1,4 @@
-package com.loop.test.HomeTask;
+package com.loop.test.HomeTask.Task_5_extraTask;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
