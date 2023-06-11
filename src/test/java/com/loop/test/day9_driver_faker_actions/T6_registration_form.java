@@ -9,6 +9,7 @@ import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
 
 import java.text.SimpleDateFormat;
+import java.util.List;
 
 public class T6_registration_form {
 
@@ -45,6 +46,11 @@ public class T6_registration_form {
         Driver.getDriver().findElement(By.xpath("//input[@value='java']")).click();
 
         Driver.getDriver().findElement(By.xpath("//button[@type='submit']")).click();
+
+//        List<WebElement> element = Driver.getDriver().findElements()
+
+
+
     }
 
 }
