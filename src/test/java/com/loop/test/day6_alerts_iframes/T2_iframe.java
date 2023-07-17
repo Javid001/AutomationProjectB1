@@ -1,6 +1,8 @@
 package com.loop.test.day6_alerts_iframes;
 
 import com.loop.test.base.TestBase;
+import com.loop.test.utilities.Driver;
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
@@ -36,9 +38,10 @@ public class T2_iframe extends TestBase {
         iframes = driver.findElements(By.xpath("//iframe"));
         System.out.println(iframes.size() + "iframes");
 
-
-
+//      Driver.getDriver().switchTo().window(Driver.getDriver().getWindowHandle());
 
     }
+
+//    Alert alert = Driver.getDriver().switchTo().alert();
 
 }
