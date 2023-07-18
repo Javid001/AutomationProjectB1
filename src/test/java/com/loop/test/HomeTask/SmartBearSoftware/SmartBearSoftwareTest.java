@@ -21,8 +21,6 @@ import static org.testng.AssertJUnit.assertTrue;
 
 public class SmartBearSoftwareTest {
 
-
-
     SmartBearSoftwarePage smartBearSoftwarePage;
 
     @BeforeClass
